@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction SOP</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Transaction SOP 💸</h1>
+            <p>Guidelines for managing user transactions, monitoring for fraud, and handling deposit/withdrawal issues.</p>
+            <button class="back-button" onclick="goBack()">🔙 Back to Dashboard</button>
+        </div>
+    </header>
+
+    <section class="sop-content">
+        <h2>Workflow Diagram</h2>
+        <img src="images/Transaction Team.drawio.png" alt="Transaction SOP Flowchart" class="flowchart" onclick="openModal()">
+
+        <div id="imageModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modalImage" class="modal-content">
+        </div>
+
+        <h2>Introduction</h2>
+        <p>The Transaction SOP outlines the procedures for the Transaction Team in managing user transactions, monitoring for potential fraud, and resolving deposit and withdrawal inquiries.</p>
+
+        <h2>Roles and Responsibilities</h2>
+        <ul>
+            <li>Monitor for suspicious transaction activities, including high-value deposits and coin mixing behaviors.</li>
+            <li>Resolve inquiries related to deposits and withdrawals from users and customer service (CS) agents.</li>
+            <li>Escalate complex cases to the Risk/Fraud/KYC team as needed for further review.</li>
+        </ul>
+
+        <h2>Step-by-Step Procedure</h2>
+        <h3>1. Initial Transaction Review</h3>
+        <p>Begin by reviewing all user transactions, particularly for signs of suspicious behavior. Flag high-value deposits from unverified accounts and any deposit-withdrawal sequences that resemble coin mixing.</p>
+
+        <h3>2. Resolving Deposit and Withdrawal Issues</h3>
+        <p>When CS agents escalate inquiries regarding deposit or withdrawal issues, follow these steps:</p>
+        <ul>
+            <li><strong>Incorrect Network/Address:</strong> Inform the user that funds are unrecoverable if they used the wrong network or address.</li>
+            <li><strong>Pending Transactions:</strong> Advise the user to wait for additional blockchain confirmations.</li>
+        </ul>
+
+        <h3>3. Suspicious Activity Protocol</h3>
+        <p>If you detect patterns of suspicious behavior, such as rapid withdrawals with no wagering, escalate the case to the Risk and Fraud teams for further analysis.</p>
+
+        <h2>Escalation Protocols</h2>
+        <p>For complex or unresolved cases, escalate the issue to the appropriate teams via Slack. Clearly document the reason for escalation, include details on suspected behavior, and tag relevant team members.</p>
+    </section>
+
+    <script src="../script.js"></script>
+</body>
+</html>

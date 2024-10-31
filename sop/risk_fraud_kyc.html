@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risk/Fraud/KYC SOP</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Risk/Fraud/KYC SOP 🔒</h1>
+            <p>Guidelines for identifying, investigating, and handling high-risk activities with the Risk, Fraud, and KYC teams.</p>
+            <button class="back-button" onclick="goBack()">🔙 Back to Dashboard</button>
+        </div>
+    </header>
+
+    <section class="sop-content">
+        <h2>Workflow Diagram</h2>
+        <img src="images/Risk-Fraud-KYC.drawio.png" alt="Risk/Fraud/KYC SOP Flowchart" class="flowchart" onclick="openModal()">
+
+        <div id="imageModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modalImage" class="modal-content">
+        </div>
+
+        <h2>Introduction</h2>
+        <p>This SOP outlines the joint efforts of the Risk, Fraud, and KYC teams in identifying, investigating, and handling high-risk user activities.</p>
+
+        <h2>Roles and Responsibilities</h2>
+        <ul>
+            <li>Risk Team: Assess risks associated with high-value deposits and coin mixing behaviors.</li>
+            <li>Fraud Team: Investigate patterns indicating multi-account usage, referral abuse, and other fraudulent behaviors.</li>
+            <li>KYC Team: Verify user identity through document review when escalated by Risk and Fraud teams.</li>
+        </ul>
+
+        <h2>Step-by-Step Procedure</h2>
+        <h3>1. Joint Initial Assessment by Risk and Fraud Teams</h3>
+        <p>Both teams assess high-value deposits and look for signs of coin mixing or other AML risks. If suspicious activity is detected, proceed to detailed account analysis.</p>
+
+        <h3>2. Detailed Account Analysis</h3>
+        <p>Analyze user account details, looking for similar names, IPs, devices, and wallet addresses. If multi-account use is suspected, request ID, selfie, and Gambi paper.</p>
+
+        <h3>3. Document Verification by KYC Team</h3>
+        <p>The KYC Team verifies submitted documents and checks consistency with linked accounts. If verification fails, apply permanent suspension.</p>
+
+        <h2>Documentation and Escalation Protocols</h2>
+        <p>For all restrictions or suspensions, document findings in the user account and specify reasons based on collected evidence. Escalate unresolved cases via Slack for collaborative review.</p>
+    </section>
+
+    <script src="../script.js"></script>
+</body>
+</html>

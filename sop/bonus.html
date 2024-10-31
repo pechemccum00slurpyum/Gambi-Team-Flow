@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonus SOP</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Bonus SOP 🎁</h1>
+            <p>Guidelines for managing bonus programs, monitoring for abuse, and assisting CS agents with bonus inquiries.</p>
+            <button class="back-button" onclick="goBack()">🔙 Back to Dashboard</button>
+        </div>
+    </header>
+
+    <section class="sop-content">
+        <h2>Workflow Diagram</h2>
+        <img src="images/Bonus Team.drawio.png" alt="Bonus SOP Flowchart" class="flowchart" onclick="openModal()">
+
+        <div id="imageModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modalImage" class="modal-content">
+        </div>
+
+        <h2>Introduction</h2>
+        <p>This SOP details the Bonus Team's responsibilities in managing user bonuses, monitoring for abuse, and ensuring compliance with promotional terms.</p>
+
+        <h2>Roles and Responsibilities</h2>
+        <ul>
+            <li>Calculate and apply bonuses based on promotions, ensuring compliance with company policies.</li>
+            <li>Monitor for patterns of bonus abuse, such as multi-account usage or suspicious referral codes.</li>
+            <li>Provide assistance to CS agents on bonus-related inquiries.</li>
+        </ul>
+
+        <h2>Step-by-Step Procedure</h2>
+        <h3>1. Bonus Calculation and Application</h3>
+        <p>Verify eligibility based on promotion terms and calculate the bonus amount. Ensure accurate application and document all transactions.</p>
+
+        <h3>2. Detecting Bonus Abuse</h3>
+        <p>Monitor for abusive patterns, such as accounts claiming bonuses excessively or using obscure referral codes. If detected, follow up with Fraud and KYC teams.</p>
+
+        <h3>3. Responding to CS Inquiries</h3>
+        <p>Assist CS agents with bonus-related inquiries, providing them with up-to-date promotional terms and eligibility criteria.</p>
+
+        <h2>Escalation Protocols</h2>
+        <p>For suspected abuse, escalate cases to Fraud or KYC via Slack. Request additional documentation, such as ID and selfie with Gambi paper, if necessary.</p>
+    </section>
+
+    <script src="../script.js"></script>
+</body>
+</html>
