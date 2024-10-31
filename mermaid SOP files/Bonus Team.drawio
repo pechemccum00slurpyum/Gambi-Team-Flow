@@ -1,0 +1,275 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="hrc6BkeszY-XiiYmNKun">
+    <mxGraphModel dx="1366" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="siZn_q_DvN84XT-prCRC-161" value="Start" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="973" y="750" width="96" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-162" value="Receive Inquiry from CS Agent" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="902" y="849" width="237" height="237" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-163" value="Verify User Eligibility and Promotion Terms" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="900" y="1136" width="243" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-164" value="Calculate Bonus Based on User Deposit and Promotion" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="891" y="1253" width="259" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-165" value="Check if Bonus Abuser Detected" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="912" y="1370" width="218" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-166" value="Is Bonus Abuse Detected?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="907" y="1486" width="229" height="229" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-167" value="Apply Bonus and Document" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="896" y="3221" width="256" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-168" value="Investigate for Multiple Accounts or Referral Code Abuse" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1123" y="1788" width="248" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-169" value="Check for Multiple Accounts Abusing Bonus" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="601" y="1922" width="260" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-170" value="Are Multiple Accounts Confirmed?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="620" y="2050" width="224" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-171" value="Ban All Related Accounts and Document" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="326" y="2395" width="237" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-172" value="Escalate to KYC, Fraud, and Risk Teams via Slack for Review" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="613" y="2386" width="236" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-173" value="Check for Usage of Obscure Referral Codes" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1408" y="1922" width="258" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-174" value="Is Referral Code Suspicious?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1271" y="2039" width="246" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-175" value="Ban Users with Suspicious Referral Codes&#xa;(DO NOT BAN THE OWNER OF THE CODE)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="2395" width="244" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-176" value="Request Selfie + ID + Gambi Paper from Suspicious Users" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1182" y="2548" width="260" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-177" value="Escalate to KYC Team via Slack for Document Review" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1032" y="2733" width="256" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-178" value="Verification Approved by KYC?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1037" y="2895" width="245" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-179" value="Suspend Accounts Permanently" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1652" y="3212" width="187" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-180" value="Check for Additional Bonus Inquiries from CS Agents" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="898" y="3329" width="253" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-181" value="Is There a CS Inquiry?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="923" y="3446" width="202" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-182" value="Assist CS Agents with Bonus Clarification and Resolve Inquiry" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="802" y="3721" width="258" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-183" value="End" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="785" y="3891" width="86" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-184" value="Info: For suspected multiple accounts abusing the bonus, ban confirmed related accounts. Escalate unconfirmed cases to KYC/Fraud/Risk Teams via Slack for review." style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="899" y="2358" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-185" value="Info: Obscure referral codes include codes not linked to known influencers. These may indicate that users are attempting to abuse the referral system." style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1568" y="2092" width="224" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-186" value="Info: For suspected referral code abuse, require a selfie with ID and a paper with &#39;Gambi&#39; written on it from all affected users. Escalate to KYC Team via Slack for verification." style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1338" y="2688" width="252" height="157" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-187" value="Info: CS agents may require clarification on bonus eligibility or terms. Respond promptly to maintain smooth operations." style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="922" y="3855" width="244" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-188" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-161" target="siZn_q_DvN84XT-prCRC-162" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-189" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-162" target="siZn_q_DvN84XT-prCRC-163" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-190" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-163" target="siZn_q_DvN84XT-prCRC-164" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-191" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-164" target="siZn_q_DvN84XT-prCRC-165" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-192" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-165" target="siZn_q_DvN84XT-prCRC-166" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-193" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.6;entryX=0;entryY=0.26;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-166" target="siZn_q_DvN84XT-prCRC-167" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="1752" />
+              <mxPoint x="280" y="3176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-194" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.83;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-166" target="siZn_q_DvN84XT-prCRC-168" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1247" y="1752" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-195" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.69;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-168" target="siZn_q_DvN84XT-prCRC-169" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="731" y="1897" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-196" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-169" target="siZn_q_DvN84XT-prCRC-170" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-197" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.78;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-170" target="siZn_q_DvN84XT-prCRC-171" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="445" y="2322" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-198" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-170" target="siZn_q_DvN84XT-prCRC-172" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-199" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.84;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-168" target="siZn_q_DvN84XT-prCRC-173" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1537" y="1897" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-200" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.18;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-173" target="siZn_q_DvN84XT-prCRC-174" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1394" y="2014" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-201" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.24;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-174" target="siZn_q_DvN84XT-prCRC-175" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1312" y="2322" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-202" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.84;entryX=1;entryY=0.2;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-174" target="siZn_q_DvN84XT-prCRC-167" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1627" y="2322" />
+              <mxPoint x="1627" y="3176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-203" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-175" target="siZn_q_DvN84XT-prCRC-176" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-204" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.22;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-176" target="siZn_q_DvN84XT-prCRC-177" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="2651" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-205" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-177" target="siZn_q_DvN84XT-prCRC-178" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-206" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.07;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-178" target="siZn_q_DvN84XT-prCRC-167" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1024" y="3176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-207" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.86;entryX=0;entryY=0.24;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-178" target="siZn_q_DvN84XT-prCRC-179" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1376" y="3176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-208" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-167" target="siZn_q_DvN84XT-prCRC-180" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-209" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-180" target="siZn_q_DvN84XT-prCRC-181" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-210" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.16;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-181" target="siZn_q_DvN84XT-prCRC-182" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="931" y="3684" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-211" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.8;exitY=1;entryX=1.01;entryY=0.23;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-181" target="siZn_q_DvN84XT-prCRC-183" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1107" y="3684" />
+              <mxPoint x="1107" y="3830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-212" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.21;exitY=1;entryX=0.46;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-182" target="siZn_q_DvN84XT-prCRC-183" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="813" y="3830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-213" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.78;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-170" target="siZn_q_DvN84XT-prCRC-184" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="2322" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-214" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.82;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-173" target="siZn_q_DvN84XT-prCRC-185" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680" y="2014" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-215" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-176" target="siZn_q_DvN84XT-prCRC-186" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1464" y="2651" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="siZn_q_DvN84XT-prCRC-216" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.17;entryY=0;rounded=0;" parent="1" source="siZn_q_DvN84XT-prCRC-182" target="siZn_q_DvN84XT-prCRC-187" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="931" y="3830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
