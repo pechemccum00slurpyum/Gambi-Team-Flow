@@ -1,0 +1,166 @@
+/* Root Variables for Dark Mode */
+:root {
+    --bg-color: #2c2f33;
+    --text-color: #dcddde;
+    --header-bg: #23272a;
+    --button-bg: #7289da;
+    --button-text: #ffffff;
+    --modal-bg: rgba(0, 0, 0, 0.9);
+    --card-bg: #36393f;
+    --accent-color: #5b6eae;
+}
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: var(--header-bg);
+    color: var(--button-text);
+    padding: 2em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    padding: 1em;
+    gap: 0.8em; /* Consistent spacing between elements */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+    padding-bottom: 0.5em;
+}
+
+/* Consistent Width Button Styling */
+.back-button {
+    padding: 0.6em 1em;
+    width: 220px;
+    text-align: center;
+    background: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 1em;
+}
+
+.back-button:hover {
+    background-color: var(--accent-color);
+}
+
+/* SOP Links on Dashboard */
+.sop-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.sop-link {
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+    margin: 0.5em 0;
+    padding: 1em 2em;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.2s;
+}
+
+.sop-link:hover {
+    background-color: var(--accent-color);
+    transform: translateY(-2px);
+}
+
+/* SOP Content */
+.sop-content {
+    padding: 2em;
+    max-width: 800px;
+    margin: 1em auto;
+    background: var(--card-bg);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Flowchart Image Styling */
+.flowchart {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.flowchart:hover {
+    transform: scale(1.02);
+}
+
+/* Fullscreen Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--modal-bg);
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevents scrollbars */
+}
+
+.modal-content {
+    max-width: 90%;
+    max-height: 90%;
+    cursor: grab;
+    transform-origin: center;
+    transition: transform 0.2s;
+}
+
+/* Close Button for Modal */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close:hover {
+    color: #f44336;
+}
+
+/* Footer */
+footer {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 0.9em;
+    color: var(--text-color);
+}
